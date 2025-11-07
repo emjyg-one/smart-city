@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.l7-control-container .l7-top.l7-left {
+  top: 80px;
+}
+.l7-control-container .l7-top.l7-right {
+  top: 80px;
+}
+.l7-control-container .l7-bottom.l7-left {
+  bottom: 40px;
+}
+.l7-control-container .l7-bottom.l7-right {
+  bottom: 40px;
+}
+.mapboxgl-control-container .mapboxgl-ctrl-top-left .mapboxgl-ctrl-directions.mapboxgl-ctrl {
+  margin-top: 250px;
+}
