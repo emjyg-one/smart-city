@@ -58,18 +58,18 @@ request.interceptors.response.use(
 );
 
 // 武汉建筑数据接口
-export const getWuhanBuildings = () => {
+export const getWuhanBuilding = () => {
   // 请求 public 目录下的 Wuhan_Buildings.json
   return request.get('/Wuhan_Buildings.json');
 };
 
 // 武汉道路数据接口
-export const getWuhanRoads = () => {
+export const getWuhanRoad = () => {
   return request.get('/Wuhan_roads.json');
 };
 
 // 武汉桥梁数据接口（如果有）
-export const getWuhanBridges = () => {
+export const getWuhanBridge = () => {
   return request.get('/Wuhan_bridge.json');
 };
 
